@@ -21,6 +21,6 @@ features:
     details: 部署指南。
     link: /deploy/
   - title: Reference
-    details: 放不适合写进教程里的细节、规则和补充说明。
+    details: 细节、规则和补充说明。
     link: /reference/
 ---
