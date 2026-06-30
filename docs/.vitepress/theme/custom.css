@@ -1,0 +1,79 @@
+:root {
+  --vp-font-family-base:
+    Inter,
+    "Noto Sans SC",
+    "PingFang SC",
+    "Microsoft YaHei",
+    system-ui,
+    sans-serif;
+
+  --vp-font-family-mono:
+    "JetBrains Mono",
+    "SFMono-Regular",
+    Consolas,
+    monospace;
+
+  --vp-c-brand-1: #111827;
+  --vp-c-brand-2: #374151;
+  --vp-c-brand-3: #6b7280;
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #111827, #6b7280);
+}
+
+.VPHero .name,
+.VPHero .text {
+  letter-spacing: -0.04em;
+}
+
+.VPHero .tagline {
+  max-width: 620px;
+  line-height: 1.8;
+}
+
+.api-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.api-card {
+  display: block;
+  padding: 20px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 14px;
+  background: var(--vp-c-bg-soft);
+  text-decoration: none !important;
+  transition:
+    border-color 0.18s ease,
+    transform 0.18s ease,
+    background 0.18s ease;
+}
+
+.api-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--vp-c-text-2);
+  background: var(--vp-c-bg);
+}
+
+.api-card-kicker {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: var(--vp-c-text-3);
+}
+
+.api-card strong {
+  display: block;
+  color: var(--vp-c-text-1);
+  font-size: 18px;
+  letter-spacing: -0.02em;
+}
+
+.api-card p {
+  margin: 8px 0 0;
+  color: var(--vp-c-text-2);
+  line-height: 1.7;
+}
