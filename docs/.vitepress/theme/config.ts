@@ -5,7 +5,7 @@ export default defineConfig({
   title: 'Liyao Docs',
   description: 'Deployment / Guide / Overview',
 
-  base: '/BlockPilotDocs/',
+  base: '/BlockPilotDocs',
 
   cleanUrls: true,
 
