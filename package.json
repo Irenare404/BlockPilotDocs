@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@astrojs/starlight": "latest",
+    "@fontsource-variable/noto-sans-sc": "^5.2.10",
     "@fontsource/inter": "latest",
-    "@fontsource/jetbrains-mono": "latest",
-    "@fontsource/noto-sans-sc": "latest",
+    "@fontsource/jetbrains-mono": "^5.2.8",
+    "@fontsource/noto-sans-sc": "^5.2.9",
+    "@fontsource/space-grotesk": "^5.2.10",
     "astro": "latest"
   }
 }

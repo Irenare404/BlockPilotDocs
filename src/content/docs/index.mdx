@@ -1,16 +1,77 @@
 ---
-title: 总览
-description: BlockPilot 文档入口。
+title: BlockPilot
+description: Minecraft Java AI companion bot platform.
 template: splash
 sidebar:
-  order: 0
-hero:
-  title: BlockPilot
-  tagline: Minecraft Java AI 伴玩 Bot 平台。
-  actions:
-    - text: 快速部署
-      link: /BlockPilotDocs/deploy/quick-start/
-      variant: primary
-    - text: 插件开发
-      link: /BlockPilotDocs/plugins/
+  hidden: true
+next: false
+prev: false
 ---
+
+<section id="bp-home" class="bp-landing">
+  <div class="bp-hero">
+    <div class="bp-hero-copy">
+      <div class="bp-label">
+        <span>BlockPilot</span>
+        <em>Minecraft Java AI Bot Platform</em>
+      </div>
+
+      <h1>
+        把 LLM 接入你的
+        <span>Minecraft 服务器</span>
+      </h1>
+
+      <p class="bp-subtitle">
+        通过 Gateway、Bot Worker、Agent Runtime 与插件能力系统，让 Minecraft Java 服务器里的 Bot
+        可以观察、响应并执行可扩展的行动。
+      </p>
+
+      <div class="bp-actions">
+        <a class="bp-button primary" href="/BlockPilotDocs/deploy/quick-start/">快速部署</a>
+        <a class="bp-button" href="/BlockPilotDocs/plugins/">插件开发</a>
+      </div>
+    </div>
+
+    <div class="bp-hero-visual">
+      <div class="bp-logo-shell">
+        <img src="/BlockPilotDocs/logo.svg" alt="BlockPilot logo" class="bp-hero-logo" />
+      </div>
+      <div class="bp-visual-caption">
+        Gateway / Worker / Agent / Capability
+      </div>
+    </div>
+  </div>
+
+  <div class="bp-stack">
+    <span>Gateway</span>
+    <span>Bot Worker</span>
+    <span>Agent Runtime</span>
+    <span>Plugin Capability</span>
+  </div>
+
+  <div class="bp-cards">
+    <a class="bp-card" href="/BlockPilotDocs/concepts/architecture/">
+      <span class="bp-card-no">01</span>
+      <strong>基本信息</strong>
+      <p>理解 BlockPilot 的定位，以及 Gateway、Bot Worker、Agent Runtime 之间的关系。</p>
+    </a>
+
+    <a class="bp-card" href="/BlockPilotDocs/deploy/quick-start/">
+      <span class="bp-card-no">02</span>
+      <strong>部署指南</strong>
+      <p>从 Node.js、pnpm、环境变量，到启动 Gateway、Worker 和 Agent Runtime。</p>
+    </a>
+
+    <a class="bp-card" href="/BlockPilotDocs/deploy/gateway-api/">
+      <span class="bp-card-no">03</span>
+      <strong>Gateway API</strong>
+      <p>查看 Bot 状态、世界快照、任务状态，并通过 HTTP 调用 Bot action。</p>
+    </a>
+
+    <a class="bp-card" href="/BlockPilotDocs/plugins/">
+      <span class="bp-card-no">04</span>
+      <strong>插件开发</strong>
+      <p>为 Bot Worker 注册 capability、action、事件监听器和 Minecraft 行为能力。</p>
+    </a>
+  </div>
+</section>
