@@ -17,7 +17,9 @@ Agent Runtime / HTTP Client / Web Console
             Bot Worker
                  ↓
        Minecraft Java Server
-Bot Worker
+```
+
+## Bot Worker
 
 Bot Worker 负责真实连接 Minecraft Java 服务器。
 
@@ -27,7 +29,8 @@ Bot Worker 负责真实连接 Minecraft Java 服务器。
 接收 Minecraft 事件
 执行 Gateway 下发的 action
 汇报状态、世界快照和能力列表
-BlockPilot Gateway
+
+## BlockPilot Gateway
 
 Gateway 是控制平面。
 
@@ -37,7 +40,8 @@ Gateway 是控制平面。
 暴露 HTTP API
 提供 Bot 状态、action 列表、任务状态和世界快照
 作为 Agent Runtime、Web Console 和插件系统之间的稳定接口
-Agent Runtime
+
+## Agent Runtime
 
 Agent Runtime 是独立进程。
 
@@ -45,7 +49,7 @@ Agent Runtime 是独立进程。
 
 它可以使用规则 planner，也可以使用 OpenAI-compatible LLM planner。
 
-Capability Runtime
+## Capability Runtime
 
 BlockPilot 的能力可以来自内置 action，也可以来自 Bot Worker 插件。
 

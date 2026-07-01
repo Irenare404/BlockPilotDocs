@@ -402,3 +402,7 @@ body:has(#bp-home) .sl-markdown-content:has(#bp-home) {
   margin: 0 !important;
   padding: 0 !important;
 }
+
+body:has(#bp-home) .content-panel:has(> .sl-container > h1#_top) {
+  display: none !important;
+}
