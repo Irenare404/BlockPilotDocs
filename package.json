@@ -1,22 +1,18 @@
 {
-  "name": "BlockPilot Docs",
+  "name": "blockpilotdocs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "vitepress": "^1.6.4"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "dependencies": {
-    "@fontsource/inter": "^5.2.8",
-    "@fontsource/jetbrains-mono": "^5.2.8",
-    "@fontsource/noto-sans-sc": "^5.2.9"
+    "@astrojs/starlight": "latest",
+    "@fontsource/inter": "latest",
+    "@fontsource/jetbrains-mono": "latest",
+    "@fontsource/noto-sans-sc": "latest",
+    "astro": "latest"
   }
 }
