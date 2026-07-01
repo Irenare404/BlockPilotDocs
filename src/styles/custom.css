@@ -103,7 +103,7 @@ main:has(.bp-landing),
   --bp-panel: color-mix(in srgb, var(--sl-color-gray-6) 82%, transparent);
   --bp-panel-strong: color-mix(in srgb, var(--sl-color-bg) 88%, transparent);
   --bp-border: var(--sl-color-gray-5);
-  --bp-accent: #405cff;
+  --bp-accent: #192591;
   --bp-accent-text: #ffffff;
   --bp-logo-bg: color-mix(in srgb, var(--sl-color-gray-6) 65%, transparent);
   --bp-logo-glow: rgba(64, 92, 255, 0.22);
@@ -127,7 +127,7 @@ html[data-theme="dark"] .bp-landing,
   --bp-panel: rgba(33, 35, 43, 0.88);
   --bp-panel-strong: rgba(39, 42, 52, 0.96);
   --bp-border: rgba(255, 255, 255, 0.07);
-  --bp-accent: #5d73ff;
+  --bp-accent: #0e11b1;
   --bp-accent-text: #ffffff;
   --bp-logo-bg: rgba(255, 255, 255, 0.055);
   --bp-logo-glow: rgba(116, 80, 145, 0.38);
