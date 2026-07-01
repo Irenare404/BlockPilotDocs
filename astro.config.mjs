@@ -2,8 +2,8 @@ import { defineConfig } from 'astro/config'
 import starlight from '@astrojs/starlight'
 
 export default defineConfig({
-  site: 'https://irenare404.github.io',
-  base: '/BlockPilotDocs',
+  site: 'https://bpdoc.thispy.top',
+  base: '/',
 
   integrations: [
     starlight({
